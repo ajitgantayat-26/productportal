@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: product-portal
-          image: product-portal:1.0.0
+          image: ajitgantayat26/product-portal:1.0.0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
